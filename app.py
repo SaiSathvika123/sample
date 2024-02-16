@@ -8,7 +8,7 @@ collection2=database['mba']
 
 app=Flask(__name__)
 
-@app.route('/data')
+@app.route('/data123')
 def sample():
 
     student_collection.insert_one({"name":"sai B","number":8184,"mobile":0,"add":[
