@@ -10,6 +10,7 @@ app=Flask(__name__)
 
 @app.route('/data')
 def sample():
+    
 
     student_collection.insert_one({"name":"sai B","number":8184,"mobile":0,"add":[
         {"place":"guntur","pincode":522549,"mobile":[77777,99999] },
